@@ -1,0 +1,31 @@
+.enviar {
+    font-size: 1.2em;
+    background: #0000ffc5;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.enviar:hover {
+    background: #0000ff7e;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+img {
+    width: 450px;
+    height: 350px;
+    height: 200px;
+    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
